@@ -655,8 +655,8 @@ namespace BlackCore::Fsd
 
         static int constexpr c_maxOffsetTimes = 6; //!< Max offset times kept
         static int constexpr c_processingIntervalMsec = 100; //!< interval for the processing timer
-        static int constexpr c_updatePositionIntervalMsec = 5000; //!< interval for the position update timer (send our position to network)
-        static int constexpr c_updateInterimPositionIntervalMsec = 1000; //!< interval for interim position updates (send our position as interim position)
+        static int constexpr c_updatePositionIntervalMsec = 500; //!< interval for the position update timer (send our position to network)
+        static int constexpr c_updateInterimPositionIntervalMsec = 100; //!< interval for interim position updates (send our position as interim position)
         static int constexpr c_updateVisualPositionIntervalMsec = 200; //!< interval for the VATSIM visual position updates (send our position and 6DOF velocity)
         static int constexpr c_sendFsdMsgIntervalMsec = 10; //!< interval for FSD send messages
         bool m_stoppedSendingVisualPositions = false; //!< for when velocity drops to zero
