@@ -15,6 +15,7 @@ such as VATSIM, supporting the following simulators and operating systems:
 - Flight Simulator 2020 (Windows)
 - X-Plane 11 & 12 (Windows, Linux, macOS)
 - FlightGear (Windows, Linux, macOS)
+- JOE
 
 Downloads
 =========
